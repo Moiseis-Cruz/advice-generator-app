@@ -10,11 +10,12 @@ main {
 .containter {
     background-color: var(--secundary-darck);
     max-width: 540px;
-    padding: 47px 48px;
+    padding: 47px 48px 72px;
     text-align: center;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .containter .number-advice {
@@ -26,10 +27,27 @@ main {
 .containter .advice {
     color: var(--primary-color);
     margin-top: 24px;
+    font-size: 28px;
 }
 
 .containter .image-advice {
-    /* background-color: red; */
     margin-top: 40px;
-    /* display: block; */
+}
+
+.containter .btn-advice {
+    background-color: var(--secundary-color);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containter .btn-advice:active {
+    box-shadow: 0 0 30px 5px var(--secundary-color);
 }
