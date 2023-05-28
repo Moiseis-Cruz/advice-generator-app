@@ -1,0 +1,18 @@
+@media (max-width: 375px) {
+    .containter {
+        width: 342px;
+        padding: 39px 19px 66px;
+    }
+
+    .containter .number-advice {
+        font-size: 12px;
+    }
+
+    .containter .advice {
+        font-size: 24px;
+    }
+
+    .containter .image-advice {
+        margin-top: 26px;
+    }
+}
